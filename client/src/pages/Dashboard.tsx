@@ -208,7 +208,6 @@ function Dashboard() {
 
       <main className="max-w-5xl mx-auto p-8 space-y-10">
 
-        {/* CREATE PROJECT */}
 
         <section className="bg-gray-900 p-6 rounded-2xl">
           <h2 className="text-xl font-bold mb-5">
@@ -240,8 +239,6 @@ function Dashboard() {
             </button>
           </div>
         </section>
-
-        {/* CREATE TASK */}
 
         <section className="bg-gray-900 p-6 rounded-2xl">
           <h2 className="text-xl font-bold mb-5">
@@ -281,7 +278,6 @@ function Dashboard() {
           </div>
         </section>
 
-        {/* PROJECTS */}
 
         <section>
           <h2 className="text-2xl font-bold mb-5">
