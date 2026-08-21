@@ -10,7 +10,6 @@ const httpLink = new HttpLink({
 });
 
 const authLink = new ApolloLink((operation, forward) => {
-  console.log("🔥 AUTH LINK RUNNING")
   const token = localStorage.getItem("token");
 
   operation.setContext({
